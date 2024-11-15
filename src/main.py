@@ -25,7 +25,7 @@ def main():
         return
 
     # Print the result
-    print("Result:", result)
+    print("Result  :", result)
 
 
 # Call the main function to run the program
