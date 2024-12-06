@@ -1,8 +1,10 @@
 from src.MathRequests import MathRequest
+from src.main import calculate
 
 class Mathlib(MathRequest):
 
     def __init__(self):
+
         match (MathRequest.oper()):
             case "+":
                 MathRequest.
