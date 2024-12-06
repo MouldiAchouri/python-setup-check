@@ -1,6 +1,6 @@
 import unittest
 
-from src.MathRequests import MathRequests
+from src.MathRequests import MathRequest
 
 class TestMathRequests(unittest.TestCase):
 
@@ -10,7 +10,7 @@ class TestMathRequests(unittest.TestCase):
         self.ope1 = 5
         self.oper = "+"
         self.ope2 = 3
-        self.mathRequests = MathRequests(self.ope1, self.oper, self.ope2)
+        self.mathRequests = MathRequest(self.ope1, self.oper, self.ope2)
 
     def test_get_ope1(self):
         self.assertEqual(self.mathRequests.get_ope1(), self.ope1)
